@@ -501,7 +501,7 @@ class Country {
         this.cities = cities;
     }
 
-    leave (){
+    leave () {
         console.log(':/emigruoja gyventojai')
 if (this.population < 100000){
     console.log(`There is not enough people to leave a country`);
